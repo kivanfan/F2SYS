@@ -12,5 +12,5 @@
 */
 
 $router->get('/', function () use ($router) {
-    return "Test Push";
+    return "Test Push2";
 });

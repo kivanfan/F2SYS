@@ -12,6 +12,6 @@
 */
 
 
-$router->get('/{id}', function ($id) use ($router) {
-    return view('index');
+$router->get('/{string}', function ($id) use ($router) {
+    return view('index',['id'=>$id]);
 });

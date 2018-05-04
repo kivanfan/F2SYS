@@ -6,5 +6,19 @@
  * Time: 下午 01:21
  */
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
 <div id="root"></div>
+<script>
+    var user = "<?=$id?>";
+</script>
 <script src="js/bundle.js"></script>
+</body>
+</html>
+
+

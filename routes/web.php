@@ -11,6 +11,7 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return "Test Push2";
+
+$router->get('/{id}', function ($id) use ($router) {
+    return view('index');
 });
